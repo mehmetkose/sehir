@@ -4,6 +4,10 @@ Tekilleştirilmiş şehir bilgisi döndürür.
 
 &nbsp;
 
-## Installation
+## Kurulum
 
 * npm install sehir
+
+## Kullanım
+
+* test dosyasına göz atınız
