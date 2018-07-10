@@ -1,14 +1,14 @@
 # Sehir
 
-Tekilleştirilmiş şehir bilgisi döndürür.
+Tekilleştirilmiş şehir bilgisi döndürür. Birden çok ismi olan şehir adlarındaki karmaşayı önler. 
 
 ## Kurulum
 
-### With Yarn
+### Yarn ile
 
 * yarn add mehmetkose/sehir
 
-### With Npm
+### Npm ile
 
 * npm install sehir
 
