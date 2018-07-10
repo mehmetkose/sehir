@@ -2,12 +2,24 @@
 
 Tekilleştirilmiş şehir bilgisi döndürür.
 
-&nbsp;
-
 ## Kurulum
+
+### With Yarn
+
+* yarn add mehmetkose/sehir
+
+### With Npm
 
 * npm install sehir
 
 ## Kullanım
 
-* test dosyasına göz atınız
+```js
+
+  import {sehir} from 'sehir';
+
+  console.log(sehir("aNTaLyA")) // antalya
+  console.log(sehir("izmit")) // kocaeli
+  console.log(sehir("koCaeli")) // kocaeli
+
+```
