@@ -1,14 +1,7 @@
+import { sehirler } from './sehirler'
 
-import {sehirler} from './sehirler';
-
-const sehir = (sorgu) => {
-    const sorguSehir = sorgu.toLowerCase();
-    for (const sehir of sehirler) {
-        if (sehir.isimler.includes(sorguSehir)) {
-            return sehir.isim;
-        }
-    }
-    return sorguSehir;
+export const sehir = sorgu => {
+	const sorguSehir = sorgu.toLowerCase()
+	const sonuc = sehirler.filter(sehir => sehir.isimler.includes(sorguSehir) ? sehir : null)
+	return sonuc && sonuc.length ? sonuc.pop().isim : sorguSehir
 }
-
-export { sehir };
