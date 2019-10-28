@@ -23,7 +23,14 @@
     "mocha",
     "lint"
   ],
-  "author": "Harsha Alva",
+  "author": "Mehmet Kose",
+  "contributors": [
+    {
+      "name" : "Furkan Demir",
+      "email" : "frndemir@gmail.com",
+      "url" : "https://frndmr.github.io"
+    }
+  ],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/mehmetkose/sehir/issues"

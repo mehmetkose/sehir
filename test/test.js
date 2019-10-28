@@ -12,5 +12,6 @@ describe(pkg.name, function() {
     assert.equal(src.sehir("izmit"), "kocaeli");
     assert.equal(src.sehir("Istanbul"), "istanbul");
     assert.equal(src.sehir("Adapazarı"), "sakarya");
+    assert.equal(src.sehir("dasdsadsa"), "dasdsadsa");
   });
 });
