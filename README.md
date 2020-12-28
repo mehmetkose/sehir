@@ -6,11 +6,11 @@ Tekilleştirilmiş şehir bilgisi döndürür. Birden çok ismi olan şehir adla
 
 ### Yarn ile
 
-* yarn add mehmetkose/sehir
+* ```yarn add mehmetkose/sehir```
 
 ### Npm ile
 
-* npm install sehir
+* ```npm install sehir```
 
 ## Kullanım
 
