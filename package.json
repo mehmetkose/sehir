@@ -1,6 +1,6 @@
 {
   "name": "sehir",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "tekilleştirilmiş şehir bilgisi döndürür",
   "main": "./build/index.js",
   "scripts": {
@@ -26,9 +26,12 @@
   "author": "Mehmet Kose",
   "contributors": [
     {
-      "name" : "Furkan Demir",
-      "email" : "frndemir@gmail.com",
-      "url" : "https://frndmr.github.io"
+      "name": "Mehmet Kose",
+      "email": "mehmetkosedev@gmail.com"
+    },
+    {
+      "name": "Furkan Demir",
+      "email": "frndemir@gmail.com"
     }
   ],
   "license": "MIT",
@@ -36,8 +39,7 @@
     "url": "https://github.com/mehmetkose/sehir/issues"
   },
   "homepage": "https://github.com/mehmetkose/sehir#readme",
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
     "babel-cli": "^6.24.1",
     "babel-core": "^6.25.0",
