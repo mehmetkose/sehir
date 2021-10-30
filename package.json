@@ -1,6 +1,6 @@
 {
   "name": "sehir",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "tekilleştirilmiş şehir bilgisi döndürür",
   "main": "./build/index.js",
   "scripts": {
