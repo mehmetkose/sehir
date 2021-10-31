@@ -1,6 +1,6 @@
 {
   "name": "sehir",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "A function that returns unified Turkish city names",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
