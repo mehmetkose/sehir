@@ -1,12 +1,13 @@
 {
   "name": "sehir",
-  "version": "0.1.2",
+  "version": "0.1.4",
   "description": "tekilleştirilmiş şehir bilgisi döndürür",
   "main": "./build/index.js",
+  "types": "./build/sehir.d.ts",
   "scripts": {
     "babel-node": "babel-node --",
-    "build": "./node_modules/.bin/babel src -d build",
-    "dist": "./node_modules/.bin/babel src -d dist --presets=babili",
+    "build": "./node_modules/.bin/babel src -d build && cp src/sehir.d.ts build/sehir.d.ts",
+    "dist": "./node_modules/.bin/babel src -d dist --presets=babili && cp src/sehir.d.ts dist/sehir.d.ts",
     "test": "./node_modules/.bin/mocha --compilers js:babel-core/register --reporter spec"
   },
   "repository": {
