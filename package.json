@@ -1,18 +1,13 @@
 {
   "name": "sehir",
-  "version": "0.1.4",
-  "description": "tekilleştirilmiş şehir bilgisi döndürür",
-  "main": "./build/index.js",
-  "types": "./build/sehir.d.ts",
+  "version": "0.2.0",
+  "description": "A function that returns unified Turkish city names",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
-    "babel-node": "babel-node --",
-    "build": "./node_modules/.bin/babel src -d build && cp src/sehir.d.ts build/sehir.d.ts",
-    "dist": "./node_modules/.bin/babel src -d dist --presets=babili && cp src/sehir.d.ts dist/sehir.d.ts",
-    "test": "./node_modules/.bin/mocha --compilers js:babel-core/register --reporter spec"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/mehmetkose/sehir.git"
+    "test": "mocha --timeout 60000 --exit -r ts-node/register test/**/*.spec.ts",
+    "build": "tsc",
+    "deploy": "npm publish"
   },
   "keywords": [
     "şehir",
@@ -36,22 +31,26 @@
     }
   ],
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mehmetkose/sehir.git"
+  },
   "bugs": {
     "url": "https://github.com/mehmetkose/sehir/issues"
   },
-  "homepage": "https://github.com/mehmetkose/sehir#readme",
-  "dependencies": {},
   "devDependencies": {
-    "babel-cli": "^6.24.1",
-    "babel-core": "^6.25.0",
-    "babel-eslint": "^7.2.3",
-    "babel-plugin-transform-es2015-destructuring": "^6.23.0",
-    "babel-plugin-transform-object-rest-spread": "^6.23.0",
-    "babel-preset-es2015": "^6.24.1",
-    "babel-preset-es2015-node": "^6.1.1",
-    "babili": "^0.1.3",
-    "eslint": "^4.0.0",
-    "mocha": "^3.4.2",
-    "power-assert": "^1.4.4"
+    "@types/chai": "^4.2.22",
+    "@types/jest": "^27.0.2",
+    "@types/mocha": "^9.0.0",
+    "@types/node": "^16.11.6",
+    "chai": "^4.3.4",
+    "mocha": "^9.1.2",
+    "ts-node": "^10.2.1",
+    "tslint": "^6.1.3",
+    "typescript": "~4.4.3"
+  },
+  "dependencies": {},
+  "engines": {
+    "node": ">=8"
   }
 }

@@ -1,1 +1,12 @@
-"use strict";Object.defineProperty(exports,"__esModule",{value:!0});var _sehirler=require("./sehirler"),_sehirler2=_interopRequireDefault(_sehirler),_sehir=require("./sehir"),_sehir2=_interopRequireDefault(_sehir);function _interopRequireDefault(a){return a&&a.__esModule?a:{default:a}}exports.default={sehir:_sehir2.default,sehirler:_sehirler2.default};
+"use strict";
+var __importDefault = (this && this.__importDefault) || function (mod) {
+    return (mod && mod.__esModule) ? mod : { "default": mod };
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+var sehirler_1 = __importDefault(require("./sehirler"));
+var sehir_1 = __importDefault(require("./sehir"));
+exports.default = {
+    sehir: sehir_1.default,
+    sehirler: sehirler_1.default,
+};
+//# sourceMappingURL=index.js.map
