@@ -1,25 +1,32 @@
 # Sehir
 
-Tekilleştirilmiş şehir bilgisi döndürür. Birden çok ismi olan şehir adlarındaki karmaşayı önler. 
+A function that returns unified *Turkish city names*. Some cities has multiple names and this component can helps you to get unique name from any city name given. And also helps dealing with "I" vs "İ" problems.
 
-## Kurulum
+## Installation
 
-### Yarn ile
+### NPM
 
-* ```yarn add mehmetkose/sehir```
+```sh
+npm install sehir
+```
 
-### Npm ile
+### YARN
 
-* ```npm install sehir```
+```sh
+yarn add sehir
+```
 
-## Kullanım
+## Usage
 
 ```js
 
-  import {sehir} from 'sehir';
+  import { sehir } from 'sehir';
 
-  console.log(sehir("aNTaLyA")) // antalya
-  console.log(sehir("izmit")) // kocaeli
-  console.log(sehir("koCaeli")) // kocaeli
+  sehir("içel") // returns mersin
+  sehir("antakya") // returns hatay
+  sehir("izmit") // returns kocaeli
+  sehir("koCaeli") // returns kocaeli
+  sehir("aNTaLyA") // returns antalya
+
 
 ```
