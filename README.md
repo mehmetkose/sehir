@@ -4,11 +4,18 @@ A function that returns unified *Turkish city names*. Some cities has multiple n
 
 ## Installation
 
+### NPM
+
 ```sh
-
 npm install sehir
-
 ```
+
+### YARN
+
+```sh
+yarn add sehir
+```
+
 ## Usage
 
 ```js
