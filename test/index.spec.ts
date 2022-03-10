@@ -1,8 +1,7 @@
 import { expect } from "chai";
 
-import * as library from "../src/index";
+import { sehir, sehirler } from "../src/index";
 
-const { sehir, sehirler } = library.default;
 
 describe("test sehir function", () => {
   it("Should return correct city names", () => {

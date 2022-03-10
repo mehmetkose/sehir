@@ -1,7 +1,2 @@
-import sehirler from "./sehirler";
-import sehir from "./sehir";
-
-export default {
-  sehir,
-  sehirler,
-};
+export * as sehir from "./sehir";
+export * as sehirler from "./sehirler";

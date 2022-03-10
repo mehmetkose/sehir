@@ -1,4 +1,5 @@
 node_modules
+dist
 commands.txt
 npm-debug.log
 yarn-error.log
